@@ -136,4 +136,4 @@ const outputFilePath = process.argv[3];
 
 const codeString = fs.readFileSync(inputFilePath, "utf-8");
 
-fs.writeFileSync(outputFilePath, `// Made with JSMess V1.0.0\n// Props to Frank Stokes for the bulk of the compiler code\n\n// Compiled code\n\n${compile(codeString)}\n\n// !ALTHOUGH IT MAY WORK, DO NOT USE IN PRODUCTION!`);
+fs.writeFileSync(outputFilePath, `// Made with JSMess V1.0.0\n// Props to Francis Stokes (https://github.com/lowbyteproductions) for the bulk of the compiler code\n\n// Compiled code\n\n${compile(codeString)}\n\n// !ALTHOUGH IT MAY WORK, DO NOT USE IN PRODUCTION!`);
